@@ -1,0 +1,13 @@
+* text eol=lf
+
+# Leave fonts alone
+*.eot binary
+*.ttf binary
+*.png binary
+*.woff binary
+*.woff2 binary
+*.ico binary
+*.otf binary
+*.png binary
+*.jpg binary
+*.svg binary

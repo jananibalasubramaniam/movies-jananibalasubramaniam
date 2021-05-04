@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The MovieCard component should render movie title and release date 1`] = `
+<div
+  class="MuiPaper-root MuiCard-root Component-backdropCard-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <button
+    class="MuiButtonBase-root MuiCardActionArea-root"
+    tabindex="0"
+    type="button"
+  >
+    <img
+      alt="I am a test movie"
+      class="MuiCardMedia-root Component-media-3 MuiCardMedia-media MuiCardMedia-img"
+      title="I am a test movie"
+    />
+    <div
+      class="MuiCardContent-root"
+    >
+      <h2
+        class="MuiTypography-root MuiTypography-h6"
+      >
+        I am a test movie
+      </h2>
+      <p
+        class="MuiTypography-root MuiTypography-body1"
+      >
+        March 24, 2021
+      </p>
+    </div>
+    <span
+      class="MuiCardActionArea-focusHighlight"
+    />
+    <span
+      class="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;

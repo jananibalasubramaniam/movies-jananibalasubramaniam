@@ -1,0 +1,16 @@
+{
+  "parser": "babel-eslint",
+  "plugins": ["react", "jest"],
+  "extends": ["airbnb-base"],
+  "env": {
+    "jest/globals": true,
+    "browser": true
+  },
+  "rules": {
+    "camelcase": "off",
+    "react/jsx-uses-vars": ["error"],
+    "import/no-extraneous-dependencies": "off",
+    "no-underscore-dangle": "off",
+    "max-len": [2, {"code": 160, "tabWidth": 4, "ignoreUrls": true}]
+  }
+}
